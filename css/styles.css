@@ -1,0 +1,28 @@
+body
+{
+    padding:50px 0px 0px 0px;
+    z-index : 0;
+    background-color : black;
+}
+
+.navbar
+{
+    background : rgba(0, 0, 255, 0.2);
+}
+
+.jumbotron
+{
+    background-color : black;
+}
+
+footer
+{
+    color : floralwhite;
+    border-top : 2px solid #8ddffc;
+    padding-top : 20px;
+}
+
+.footer-links
+{
+    color : lightgrey;
+}

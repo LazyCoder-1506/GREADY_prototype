@@ -1,0 +1,24 @@
+{
+  "name": "gready_prototype",
+  "version": "1.0.0",
+  "description": "gready project",
+  "main": "index.html",
+  "scripts": {
+    "start" : "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite" : "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazyCoder-1506/GREADY_prototype.git"
+  },
+  "author": "Pranayan Metiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LazyCoder-1506/GREADY_prototype/issues"
+  },
+  "homepage": "https://github.com/LazyCoder-1506/GREADY_prototype#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
