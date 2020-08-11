@@ -35,16 +35,10 @@ body
 
 footer
 {
-    color : floralwhite;
     border-top : 2px solid #8ddffc;
     background-color : #303030;
     padding-top : 20px;
     margin-top : 20px;
-}
-
-.footer-links
-{
-    color : lightgrey;
 }
 
 .team_intro
@@ -55,14 +49,14 @@ footer
     border-left : 1px solid #8ddffc;
 }
 
-.button-color
+.button_outline_color
 {
     border-color : #8ddffc;
     color : #8ddffc;
     background : rgba(0,0,0,0);
 }
 
-.button-color:hover
+.button_outline_color:hover
 {
     background-color : #8ddffc;
     color : black;
@@ -98,8 +92,33 @@ footer
     background : none;
     border : 1px solid #8ddffc;
     border-radius : 5px;
-    color : lightgrey;
     resize : none;
+}
+
+.text_blue
+{
+    color : #8ddffc;
+}
+
+.text_floralwhite
+{
+    color : floralwhite;
+}
+
+.text_lightgrey
+{
+    color : lightgrey;
+}
+
+.heading_lines
+{
+    border : 2px solid #8ddffc;
+    width : 150px;
+}
+
+.text_center
+{
+    text-align : center;
 }
 
 @media (max-width : 900px)
