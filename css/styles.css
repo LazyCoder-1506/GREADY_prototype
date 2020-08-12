@@ -116,11 +116,6 @@ footer
     width : 150px;
 }
 
-.text_center
-{
-    text-align : center;
-}
-
 @media (max-width : 900px)
 {
     .home_carousel_pic
