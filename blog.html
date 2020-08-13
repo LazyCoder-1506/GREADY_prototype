@@ -7,108 +7,202 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Custom -->
-	<link rel="stylesheet" type="text/css" href="custom.css">
+	
 
 <!-- Bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Bootstrap -->	
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
 </head>
 <body>
 <!-- Start Blog -->
-	<main class="main">
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
 		<div class="container">
-<!-- Start Search Box -->
-			<div class="row">
-				<a href="login.html"><h1>Login Page</h1></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand mr-auto" href="index.html"><img src="img/brand1.png" height="45"></a>
+			<div class="collapse navbar-collapse" id="Navbar">
+				<ul class="navbar-nav ml-auto">
+						<li class="nav-item nav_active mr-2"><a class="nav-link nav_link_active" href="blog.html">Blog</a></li>
+						<li class="nav-item mr-2"><a class="nav-link" href="faq.html">FAQs</a></li>
+						<li class="nav-item mr-2"><a class="nav-link" href="products.html">Products</a></li>
+						<li class="nav-item mr-5"><a class="nav-link" href="compare.html">Compare</a></li>
+				</ul>
 			</div>
-			<div class="row">
-				<div class="col-12 col-sm-8 col-md-8">
-					<div class="search">
-						<form class="form-inline my-2 my-lg-0">
-		      				<input type="text" class="input" placeholder="Search">
+			<a role = "button" class = "btn button_outline_color" href = "login.html">Login</a>
+		</div>
+	</nav>
 
-		      				<button type="button" class="button">Search</button>
-		    			</form>
-	    			</div>
+<!--Header-->
+
+	<header class="jumbotron">
+		<div class="container">
+			<div class="row row-content">
+				<div class = "col-12 col-lg-8 offset-lg-2 text_floralwhite text-center">
+					<h2>Welcome to Gready</h2>
+					<p style = "font-size : 12px; font-variant : small-caps">Get Reviews and Expert Advice for Devices Yourself</p>
+					<p>
+						Hey Friends! Let's together witness a revolutionary tech platform for complete information and
+						advice, for the perfect device,just for you. We aim at Providing all the information whether it is
+						about new launch,comparing two products ,reviews.and it's prices ,you will have great time
+						surfing this website and choosing your best tech product. So r u up for the ride?!
+						Scroll down and explore what all we have in store for you!
+					</p>
 				</div>
-				<div class="col-12 col-sm-4 col-md-4">
-					&nbsp;
-				</div>
+				
 			</div>
+		</div>
+	</header>
+
+	<div class="container">
+<!-- Start Search Box -->
+		<div class="row">
+			<div class="col-12 col-sm-8 col-md-8">
+				<div>
+					<form class="form-inline my-2 my-lg-0">
+		      			<input type="text" class="input text-white bottom_outline_search" placeholder="Search">
+
+		      			<button type="button" class="btn button_outline_color">Search</button>
+		    		</form>
+	    		</div>
+			</div>
+			
+		</div>
 <!-- End Search Box -->
 
 <!-- Start Blog Content -->
-			<div class="row">
-				<div class="col-12 col-sm-8 col-md-8 mb-md-12">
-					<div class="media mt-2">
-	  					<div class="media-body">
-	    					<h4 class="mt-2 mb-1 text-white">Heading</h4>
-	    					<span class="text-white"><i>Written By</i></span><hr style="background-color: #8ddffc">
-	    					<p class="text-white">
-	    						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-	    						<br />
-	    						 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.   
-	    					</p>
-	  					</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-md-4 mt-2">
-					<h4 class="text-white">Similar Blogs</h4>
-					<div class="media mt-3">
-						<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
-	 					<div class="media-body">
-							<h5 class="mt-0 text-white">Heading</h5>
-							<span class="text-white"><i>Written By</i></span>
-						</div>
-					</div>
-					<hr style="background-color: #8ddffc">
-					<div class="media mt-3">
-						<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
-	 					<div class="media-body">
-							<h5 class="mt-0 text-white">Heading</h5>
-							<span class="text-white"><i>Written By</i></span>
-						</div>
-					</div>
-					<hr style="background-color: #8ddffc">
-					<div class="media mt-3">
-						<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
-	 					<div class="media-body">
-							<h5 class="mt-0 text-white">Heading</h5>
-							<span class="text-white"><i>Written By</i></span>
-						</div>
-					</div>
-					<hr style="background-color: #8ddffc">
-					<div class="media mt-3">
-						<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
-	 					<div class="media-body">
-							<h5 class="mt-0 text-white">Heading</h5>
-							<span class="text-white"><i>Written By</i></span>
-						</div>
-					</div>
-					<hr style="background-color: #8ddffc">
-					<div class="media mt-3">
-						<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
-	 					<div class="media-body">
-							<h5 class="mt-0 text-white">Heading</h5>
-							<span class="text-white"><i>Written By</i></span>
-						</div>
-					</div>
-					<hr style="background-color: #8ddffc">
-					<div class="media mt-3">
-						<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
-	 					<div class="media-body">
-							<h5 class="mt-0 text-white">Heading</h5>
-							<span class="text-white"><i>Written By</i></span>
-						</div>
+		<div class="row">
+			<div class="col-12 col-sm-8 col-md-8 mb-md-12">
+				<div class="media mt-2" id = "blog_content">
+					<div class="media-body">
+					<h4 class="mt-2 mb-1 text_floralwhite">Heading</h4>
+						<span class="text-white"><i>Written By</i></span>
+						<hr class = "hr_plain">
+						<p class = "font_ubuntu text_lightgrey">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+							when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+							It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+							and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+							when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+							took a galley of type and scrambled it to make a type specimen book.  
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+							when an unknown printer took a galley of type and scrambled it to make a type specimen book.   
+						</p>
 					</div>
 				</div>
 			</div>
-<!-- End Blog Content -->
+			<div class="col-12 col-lg-4 mt-2">
+			<h4 class="text_blue">Similar Blogs</h4>
+				<div class="media mt-3">
+				<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
+					<div class="media-body">
+						<h5 class="mt-0 text-white">Heading</h5>
+						<span class="text-white"><i>Written By</i></span>
+					</div>
+				</div>
+				<hr class = "hr_plain">
+				<div class="media mt-3">
+					<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
+					<div class="media-body">
+						<h5 class="mt-0 text-white">Heading</h5>
+						<span class="text-white"><i>Written By</i></span>
+					</div>
+				</div>
+				<hr class = "hr_plain">
+				<div class="media mt-3">
+					<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
+					<div class="media-body">
+						<h5 class="mt-0 text-white">Heading</h5>
+						<span class="text-white"><i>Written By</i></span>
+					</div>
+				</div>
+				<hr class = "hr_plain">
+				<div class="media mt-3">
+					<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
+					<div class="media-body">
+						<h5 class="mt-0 text-white">Heading</h5>
+						<span class="text-white"><i>Written By</i></span>
+					</div>
+				</div>
+				<hr class = "hr_plain">
+				<div class="media mt-3">
+					<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
+					<div class="media-body">
+						<h5 class="mt-0 text-white">Heading</h5>
+						<span class="text-white"><i>Written By</i></span>
+					</div>
+				</div>
+				<hr class = "hr_plain">
+				<div class="media mt-3">
+					<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
+					<div class="media-body">
+						<h5 class="mt-0 text-white">Heading</h5>
+						<span class="text-white"><i>Written By</i></span>
+					</div>
+				</div>
+			</div>
 		</div>
-	</main>
+	</div>
 <!-- End Blog -->
+	<footer class="footer text_floralwhite">
+		<div class="container">
+			<div class="row">             
+				<div class="col-4 col-md-2">
+					<h5>Links</h5>
+					<ul class="list-unstyled">
+						<li><a class = "text_lightgrey" href="blog.html">Blog</a></li>
+						<li><a class = "text_lightgrey" href="forum.html">FAQs</a></li>
+						<li><a class = "text_lightgrey" href="prooducts.html">Products</a></li>
+						<li><a class = "text_lightgrey" href="compare.html">Compare</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-4 col-md-2">
+					<h5>Contact Us</h5>
+					<ul class="list-unstyled">
+						<li><a class = "text_lightgrey" href="blog.html">Gmail</a></li>
+						<li><a class = "text_lightgrey" href="forum.html">LinkedIn</a></li>
+						<li><a class = "text_lightgrey" href="prooducts.html">Facebook</a></li>
+						<li><a class = "text_lightgrey" href="compare.html">Instagram</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-4 col-md-2">
+					<h5>Team</h5>
+					<ul class="list-unstyled">
+						<li><a class = "text_lightgrey" href="team.html">Content</a></li>
+						<li><a class = "text_lightgrey" href="team.html">Developers</a></li>
+						<li><a class = "text_lightgrey" href="team.html">Editing</a></li>
+						<li><a class = "text_lightgrey" href="team.html">Marketing</a></li>
+					</ul>
+				</div>
+				
+				<div class = "col-12 col-md-6">
+					<h4>Privacy Policy</h4>
+					<p class = "text_lightgrey">
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+					</p>
+				</div>
+				
+		</div>
+		<div class="row justify-content-center">             
+				<div class="col-auto">
+					<p class = "text_blue" style = "font-size : 12px">© Copyright 2020 Gready - All copyrights reserved</p>
+				</div>
+		</div>
+		</div>
+	</footer>
 
 <!-- Optional JavaScript -->	
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
