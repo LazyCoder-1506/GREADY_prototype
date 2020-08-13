@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+}
+.text-blue{
+	color: #8ddffc;									/* Sky Blue */
+}
+.border{
+	border: 2px solid yellow;
+}
+/****** Start Blog **********/
+.main{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url(images/blog.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.search{
+	padding-top: 10px;
+	height: 55px;
+	width: 100%;
+}
+.search .input{
+	width: calc(100% - 100px);
+	padding: 5px 10px;
+	margin-right: 15px;
+	font-size: 1.1rem;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #8ddffc;		/* Sky Blue */
+	color: #fff;
+}
+.button{		
+	color: #8ddffc;							/* Sky Blue */
+	padding: 5px 15px;
+	background-color: transparent;
+	border: 1px solid #8ddffc;				/* Sky Blue */
+	border-radius: 0.25rem;
+}
+.button:hover{
+	color: #000;
+	background-color: #8ddffc;				/* Sky Blue */
+}
+
+/****** End Blog **********/
+
+/****** Start Login-Form **********/
+.login-box{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url(images/login.jpg) !important;
+	background-size: cover;	
+	background-repeat: no-repeat;
+	width: 100%;	
+}
+.form-box{
+	margin-top: 80px;
+	position: relative !important;
+}
+.btn-secondary{
+	background-color: #8ddffc !important;				/* Sky Blue */
+	color: #000 !important;
+}
+.form-signin {
+  	width: 100%;
+  	max-width: 330px;
+  	padding: 15px;
+  	margin: auto;
+}
+.form-signin h4{
+	border-bottom: 2px solid #8ddffc;				/* Sky Blue */
+	padding: 8px 0;
+}
+#register{
+	display: none;
+}
+
+.form-signin .form-control {
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  background: transparent !important;
+  border: 1px solid #8ddffc;						/* Sky Blue */
+  border-radius: 5px !important;
+  margin-top: 10px;
+  color: #fff !important;
+}
+
+.login-button{
+	background-color: #8ddffc;								/* Sky Blue */
+	color: #000;											/* black */
+	padding: 5px 15px;
+	border: 1px solid #8ddffc;								/* Sky Blue */
+	border-radius: 0.25rem;
+}
+.login-button:hover{
+	background-color: transparent;								/* Sky Blue */
+	color: #fff;											/* White */
+	padding: 5px 15px;
+	border: 1px solid #8ddffc;								/* Sky Blue */
+	border-radius: 0.25rem;
+}
+.register-link{
+	text-decoration: none;
+	color: #fff;											/* white */
+}
+.register-link:hover{
+	text-decoration: none;
+	color: #8ddffc;											/* Sky Blue */
+}
+/****** End Login-Form **********/
