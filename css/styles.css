@@ -60,6 +60,20 @@ body
     color : black;
 }
 
+.button_solid_color
+{
+    background-color : #8ddffc;
+    color : black;
+    border : none;
+}
+
+.input_fields_transparent
+{
+    background : none;
+    border : 1px solid #8ddffc;
+    border-radius : 5px;
+}
+
 .hr_plain
 {
     background-color : #8ddffc;
@@ -102,19 +116,19 @@ footer
 
 #row_bg
 {
-    background-image : linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.2), rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2), rgba(0,0,0,1)), url(../img/background2.jpg);
+    background-image : linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.2), rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2), rgba(0,0,0,1)), url(../img/home_row_bg.jpg);
     background-size : 100% 100%;
 }
 
 #product_bg
 {
-    background-image : linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,1)), url(../img/background.jpg);
+    background-image : linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,1)), url(../img/home_product_bg.jpg);
     background-size : 100% 100%;
 }
 
 #compare_bg
 {
-    background-image : linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,1)), url(../img/background1.jpg);
+    background-image : linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,1)), url(../img/home_compare_bg.jpg);
     background-size : 100% 100%;
 }
 
@@ -122,9 +136,6 @@ footer
 {
     
     padding : 3px 3px;
-    background : none;
-    border : 1px solid #8ddffc;
-    border-radius : 5px;
     resize : none;
 }
 
@@ -154,6 +165,19 @@ footer
 	border-bottom: 2px solid #8ddffc;		/* Sky Blue */
 }
 /*Blog page CSS ends*/
+
+/*Login page CSS*/
+#register
+{
+    display : none;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
 
 /*media queries*/
 @media (max-width : 900px)

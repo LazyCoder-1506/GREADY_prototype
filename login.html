@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Gready - Blog</title>
+	<title>Gready - Login</title>
 <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,52 +10,154 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Custom -->
-	<link rel="stylesheet" type="text/css" href="custom.css">
+	
 
 <!-- Bootstrap -->	
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-<body class="login-box">
-  <main>  
-    <div class="container">
+<body>
+    <!--Navigation Bar-->
+
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="index.html"><img src="img/brand1.png" height="45"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-2"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="faq.html">FAQs</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="products.html">Products</a></li>
+                        <li class="nav-item mr-5"><a class="nav-link" href="compare.html">Compare</a></li>
+                </ul>
+			</div>
+			
+		</div>
+	</nav>
+
+<!--Header-->
+
+	<header class="jumbotron">
+        <div class="container">
+            <div class="row row-content">
+                <div class = "col-12 col-lg-8 offset-lg-2 text_floralwhite text-center">
+					<h2>Welcome to Gready</h2>
+					<p style = "font-size : 12px; font-variant : small-caps">Get Reviews and Expert Advice for Devices Yourself</p>
+					<p>
+						Hey Friends! Let's together witness a revolutionary tech platform for complete information and
+						advice, for the perfect device,just for you. We aim at Providing all the information whether it is
+						about new launch,comparing two products ,reviews.and it's prices ,you will have great time
+						surfing this website and choosing your best tech product. So r u up for the ride?!
+						Scroll down and explore what all we have in store for you!
+					</p>
+				</div>
+                
+            </div>
+        </div>
+	</header>
+  
+    <div class="container my-5">
       <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 offset-sm-3">
           <div class="form-box">
             <div class="text-center">
-              <button type="button" class="btn btn-secondary" onclick="login()">Login</button>
-              <button type="button" class="btn btn-secondary" onclick="register()">Register</button>
+                <button type="button" class="btn button_solid_color" onclick="login()">Login</button>
+                <button type="button" class="btn button_solid_color" onclick="register()">Register</button>
             </div>
   <!--  Start Login Form-->        
             <form class="form-signin" id="login">
-              <h4 class="text-blue text-center mb-3 font-weight-normal">Login to your account</h4>
-          
-              <input type="email" class="form-control" placeholder="Email address" required autofocus>
-              <input type="password" class="form-control" placeholder="Password" required>
-          
-              <button class="login-button btn-block mt-3" type="submit">Sign in</button>
+                <h4 class="text_blue text-center mb-3 font-weight-normal">Login to your account</h4>
+            
+                <div class = "form-row">
+                    <input type="email" class="input_fields_transparent text-white w-100 p-1 align-self-center mt-2 mx-auto" placeholder="Email address" required>
+                </div>
+                <div class = "form-row">
+                    <input type="password" class="input_fields_transparent text-white w-100 p-1 align-self-center mt-2 mx-auto" placeholder="Password" required>
+                </div>
+                <button class="button_solid_color btn-block mt-3 p-1" type="submit"><strong>Login</strong></button>
             </form>
   <!--  End Login Form-->  
 
   <!--  Start Register Form-->  
             <form class="form-signin"  id="register">
-                <h4 class="text-blue text-center mb-3 font-weight-normal">Create an account</h4>
-            
-                <input type="text" class="form-control" placeholder="Full name" required autofocus>
-                <input type="email" class="form-control" placeholder="Email address" required autofocus>
-                <input type="phone" class="form-control" placeholder="Phone Number" required autofocus>
-                <input type="password" class="form-control" placeholder="Password" required autofocus>
-                <input type="password" class="form-control" placeholder="Confirm password" required>
-            
-                <button class="login-button btn-block mt-3" type="submit">Sign up</button>
+                <h4 class="text_blue text-center mb-3 font-weight-normal">Create an account</h4>
+                <div class = "form-row">
+                    <input type="text" class="input_fields_transparent text-white w-100 p-1 align-self-center mt-2 mx-auto" placeholder="Full name" required>
+                </div>
+                <div class = "form-row">
+                    <input type="email" class="input_fields_transparent text-white w-100 p-1 align-self-center mt-2 mx-auto" placeholder="Email address" required>
+                </div>
+                <div class = "form-row">
+                    <input type="phone" class="input_fields_transparent text-white w-100 p-1 align-self-center mt-2 mx-auto" placeholder="Phone Number" required>
+                </div>
+                <div class = "form-row">
+                    <input type="password" class="input_fields_transparent text-white w-100 p-1 align-self-center mt-2 mx-auto" placeholder="Password" required>
+                </div>
+                <div class = "form-row">
+                    <input type="password" class="input_fields_transparent text-white w-100 p-1 align-self-center mt-2 mx-auto" placeholder="Confirm password" required>
+                </div>
+                <button class="button_solid_color btn-block mt-3 p-1" type="submit"><strong>Register</strong></button>
             </form>
   <!--  End Register Form-->    
           </div>
         </div>
-        <div class="col-sm-3"></div>
       </div>
     </div>
-  </main>
+
+    <!--Footer-->
+	
+	<footer class="footer text_floralwhite">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 col-md-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a class = "text_lightgrey footer_link" href="blog.html">Blog</a></li>
+                        <li><a class = "text_lightgrey footer_link" href="forum.html">FAQs</a></li>
+                        <li><a class = "text_lightgrey footer_link" href="products.html">Products</a></li>
+                        <li><a class = "text_lightgrey footer_link" href="compare.html">Compare</a></li>
+                    </ul>
+				</div>
+				
+				<div class="col-4 col-md-2">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a class = "text_lightgrey footer_link" href="blog.html">Gmail</a></li>
+                        <li><a class = "text_lightgrey footer_link" href="forum.html">LinkedIn</a></li>
+                        <li><a class = "text_lightgrey footer_link" href="prooducts.html">Facebook</a></li>
+                        <li><a class = "text_lightgrey footer_link" href="compare.html">Instagram</a></li>
+                    </ul>
+                </div>
+				
+				<div class="col-4 col-md-2">
+                    <h5>Team</h5>
+                    <ul class="list-unstyled">
+                        <li><a class = "text_lightgrey footer_link" href="team.html">Content</a></li>
+                        <li><a class = "text_lightgrey footer_link" href="team.html">Developers</a></li>
+                        <li><a class = "text_lightgrey footer_link" href="team.html">Editing</a></li>
+                        <li><a class = "text_lightgrey footer_link" href="team.html">Marketing</a></li>
+                    </ul>
+				</div>
+				
+				<div class = "col-12 col-md-6">
+					<h4>Privacy Policy</h4>
+					<p class = "text_lightgrey">
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+					</p>
+				</div>
+                
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p class = "text_blue" style = "font-size : 12px">© Copyright 2020 Gready - All copyrights reserved</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+
   <script type="text/javascript">
     var loginSection = document.getElementById("login");
     var registerSection = document.getElementById("register");
