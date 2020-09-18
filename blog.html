@@ -62,7 +62,7 @@
 	<div class="container">
 <!-- Start Search Box -->
 		<div class="row">
-			<div class="col-12 col-sm-8 col-md-8">
+			<div class="col-12 col-md-8 offset-md-2 mb-5">
 				<div>
 					<form class="form-inline my-2 my-lg-0">
 		      			<input type="text" class="input text-white bottom_outline_search" placeholder="Search">
@@ -77,10 +77,10 @@
 
 <!-- Start Blog Content -->
 		<div class="row">
-			<div class="col-12 col-sm-8 col-md-8 mb-md-12">
-				<div class="media mt-2" id = "blog_content">
-					<div class="media-body">
-					<h4 class="mt-2 mb-1 text_floralwhite">Heading</h4>
+			<div class="col-12 col-md-8">
+				<div class="tab-content" id = "blog_content">
+					<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+						<h4 class="mt-2 mb-1 text_floralwhite">Heading</h4>
 						<span class="text-white"><i>Written By</i></span>
 						<hr class = "hr_plain">
 						<p class = "font_ubuntu text_lightgrey">
@@ -99,60 +99,106 @@
 							when an unknown printer took a galley of type and scrambled it to make a type specimen book.   
 						</p>
 					</div>
+					<div class="tab-pane fade" id="pills-product" role="tabpanel" aria-labelledby="pills-product-tab">
+						<h4 class="mt-2 mb-1 text_floralwhite">Heading</h4>
+						<span class="text-white"><i>Written By</i></span>
+						<hr class = "hr_plain">
+						<p class = "font_ubuntu text_lightgrey">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+							when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+							It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+							It was type and scrambled it to make a type specimen book.
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+							took a galley of type and scrambled it to make a type specimen book.  
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+							when an unknown printer took a galley of type and scrambled it to make a type specimen book.   
+						</p>
+					</div>
 				</div>
 			</div>
-			<div class="col-12 col-lg-4 mt-2">
-			<h4 class="text_blue">Similar Blogs</h4>
-				<div class="media mt-3">
-				<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
-					<div class="media-body">
-						<h5 class="mt-0 text-white">Heading</h5>
-						<span class="text-white"><i>Written By</i></span>
-					</div>
+			<div class="col-12 col-lg-4 mt-2 vh-100 scroll_section">
+				<h3 class="text_blue" id = "blog_list_header">More Blogs</h3>
+				<div class="nav flex-column nav-pills border-pills" id="blog_list" role="tablist" aria-orientation="vertical">
+					<a class="nav-link active mb-2" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+						<div class="media">
+							<div class="media-body">
+								<h5 class="mt-0 text-white">Heading</h5>
+								<span class="text-white"><i>Written By</i></span>
+							</div>
+						</div>
+					</a>
+					<a class="nav-link mb-2" id="pills-home-tab" data-toggle="pill" href="#pills-product" role="tab" aria-controls="pills-product" aria-selected="false">
+						<div class="media">
+							<div class="media-body">
+								<h5 class="mt-0 text-white">Heading</h5>
+								<span class="text-white"><i>Written By</i></span>
+							</div>
+						</div>
+					</a>
+					<a class="nav-link mb-2" id="pills-home-tab" data-toggle="pill" href="#pills-product" role="tab" aria-controls="pills-product" aria-selected="false">
+						<div class="media">
+							<div class="media-body">
+								<h5 class="mt-0 text-white">Heading</h5>
+								<span class="text-white"><i>Written By</i></span>
+							</div>
+						</div>
+					</a>
+					<a class="nav-link mb-2" id="pills-home-tab" data-toggle="pill" href="#pills-product" role="tab" aria-controls="pills-product" aria-selected="false">
+						<div class="media">
+							<div class="media-body">
+								<h5 class="mt-0 text-white">Heading</h5>
+								<span class="text-white"><i>Written By</i></span>
+							</div>
+						</div>
+					</a>
+					<a class="nav-link mb-2" id="pills-home-tab" data-toggle="pill" href="#pills-product" role="tab" aria-controls="pills-product" aria-selected="false">
+						<div class="media">
+							<div class="media-body">
+								<h5 class="mt-0 text-white">Heading</h5>
+								<span class="text-white"><i>Written By</i></span>
+							</div>
+						</div>
+					</a>
+					<a class="nav-link mb-2" id="pills-home-tab" data-toggle="pill" href="#pills-product" role="tab" aria-controls="pills-product" aria-selected="false">
+						<div class="media">
+							<div class="media-body">
+								<h5 class="mt-0 text-white">Heading</h5>
+								<span class="text-white"><i>Written By</i></span>
+							</div>
+						</div>
+					</a>
+					<a class="nav-link mb-2" id="pills-home-tab" data-toggle="pill" href="#pills-product" role="tab" aria-controls="pills-product" aria-selected="false">
+						<div class="media">
+							<div class="media-body">
+								<h5 class="mt-0 text-white">Heading</h5>
+								<span class="text-white"><i>Written By</i></span>
+							</div>
+						</div>
+					</a>
+					<a class="nav-link mb-2" id="pills-home-tab" data-toggle="pill" href="#pills-product" role="tab" aria-controls="pills-product" aria-selected="false">
+						<div class="media">
+							<div class="media-body">
+								<h5 class="mt-0 text-white">Heading</h5>
+								<span class="text-white"><i>Written By</i></span>
+							</div>
+						</div>
+					</a>
+					<a class="nav-link mb-2" id="pills-home-tab" data-toggle="pill" href="#pills-product" role="tab" aria-controls="pills-product" aria-selected="false">
+						<div class="media">
+							<div class="media-body">
+								<h5 class="mt-0 text-white">Heading</h5>
+								<span class="text-white"><i>Written By</i></span>
+							</div>
+						</div>
+					</a>
 				</div>
-				<hr class = "hr_plain">
-				<div class="media mt-3">
-					<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
-					<div class="media-body">
-						<h5 class="mt-0 text-white">Heading</h5>
-						<span class="text-white"><i>Written By</i></span>
-					</div>
-				</div>
-				<hr class = "hr_plain">
-				<div class="media mt-3">
-					<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
-					<div class="media-body">
-						<h5 class="mt-0 text-white">Heading</h5>
-						<span class="text-white"><i>Written By</i></span>
-					</div>
-				</div>
-				<hr class = "hr_plain">
-				<div class="media mt-3">
-					<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
-					<div class="media-body">
-						<h5 class="mt-0 text-white">Heading</h5>
-						<span class="text-white"><i>Written By</i></span>
-					</div>
-				</div>
-				<hr class = "hr_plain">
-				<div class="media mt-3">
-					<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
-					<div class="media-body">
-						<h5 class="mt-0 text-white">Heading</h5>
-						<span class="text-white"><i>Written By</i></span>
-					</div>
-				</div>
-				<hr class = "hr_plain">
-				<div class="media mt-3">
-					<!--<img src="../../../photos/user-icon.png" class="mr-3" alt="...">-->
-					<div class="media-body">
-						<h5 class="mt-0 text-white">Heading</h5>
-						<span class="text-white"><i>Written By</i></span>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</div>
+
+	<a class = "btn btn-primary fixed-bottom px-3 rounded-pill d-md-none" href = "#blog_list_header">See More Blogs <i class="fa fa-chevron-down text-white"></i></a>
 <!-- End Blog -->
 	<footer class="footer text_floralwhite">
 		<div class="container">
