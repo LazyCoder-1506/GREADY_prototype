@@ -285,12 +285,17 @@ footer
 {
     left : 0;
     top : 0;
-    position : absolute
+    position : absolute;
 }
 
 .product_price
 {
     text-decoration : none !important;
+}
+
+#like_product_heart
+{
+    color : white;
 }
 
 @media (min-width : 700px)

@@ -178,16 +178,21 @@
                                             </div>
                                         </div>
                                         <div class = "col-12">
-                                            <p class = "text-secondary text-right mt-2"><i>Click on image to expand</i></p>
+                                            <p class = "text_lightgrey text-right mt-2"><i>Click on image to expand</i></p>
                                         </div>
                                     </div>
                                     <div class = "row">
                                         <h3><a class = "text_blue" href = "#">Compare with other similar products</a></h3>
                                         <div class = "col-6 mt-3">
-                                            <p class = "text_lightgrey" id = "like_product">Like this product? &nbsp;<i class = "fa fa-heart text-danger"></i></p>
+                                            <form>
+                                                <p class = "text_lightgrey" id = "like_product">Like this product?
+                                                    <button type = "button" class = "btn" id = "like_product_btn"><i class = "fa fa-heart" id = "like_product_heart"></i></button>
+                                                </p>
+                                            </form>
+                                            
                                         </div>
                                         <div class = "col-6 mt-3 justify-content-end text-right">
-                                            <a href = "#" class = "btn btnsm button_outline_color"><i class = "fa fa-share-alt"></i> <strong>SHARE</strong></a>
+                                            <a href = "#" class = "btn btn-sm button_outline_color"><i class = "fa fa-share-alt"></i> <strong>SHARE</strong></a>
                                         </div>
                                     </div>
                                 </div>
@@ -393,6 +398,9 @@
             $('#product_img_modal').on('show.bs.modal', function (e) {
                 var image = $(e.relatedTarget).attr('src');
                 $(".modal_img").attr("src", image);
+            });
+            $( "#like_product_btn" ).click(function() {
+                $( "#like_product_heart" ).css('color', 'red');
             });
         });
     </script>
