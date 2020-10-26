@@ -3,24 +3,25 @@
 
 <head>
     <title>Gready</title>
-      	<!-- Required meta tags always come first -->
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	    <!-- Bootstrap CSS -->
-    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel = "stylesheet" href="css/styles.css">
-		<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
-		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel = "stylesheet" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
 <body>
 
 <!--Navigation Bar-->
 
-	<nav class="navbar navbar-dark navbar-expand-sm fixed-top" id = "navigation_bar">
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top font_righteous py-0" id = "navigation_bar">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
@@ -28,10 +29,18 @@
             <a class="navbar-brand mr-auto" href="#"><img src="img/brand1.png" height="45"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-2"><a class="nav-link" href="blog.html">BLOG</a></li>
-                        <li class="nav-item mx-2"><a class="nav-link" href="faq.html">FAQs</a></li>
-                        <li class="nav-item mx-2"><a class="nav-link" href="products.html">PRODUCTS</a></li>
-                        <li class="nav-item mx-2 mr-5"><a class="nav-link" href="compare.html">COMPARE</a></li>
+                    <li class="nav-item mx-2 nav_active"><a class="text-white nav-link nav_link_active" href="blog.html">Blog</a></li>
+                    <li class="nav-item mx-2"><a class="text-white nav-link" href="faq.html">FAQs</a></li>
+                    <li class="nav-item dropdown mx-2">
+						<a class="text-white nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Products
+						</a>
+						<div class="dropdown-menu black_bg" aria-labelledby="navbarDropdown">
+						  <a class="dropdown-item text-white nav-link black_bg" href="#" style="font-size: 16px;">Phones</a>
+						  <a class="dropdown-item text-white nav-link black_bg" href="#" style="font-size: 16px;">Headphones</a>
+						</div>
+					</li>
+                    <li class="nav-item mx-2 mr-5"><a class="text-white nav-link" href="compare.html">Compare</a></li>
                 </ul>
 			</div>
 			<a role = "button" class = "btn button_outline_color" href = "login.html">Login</a>
@@ -142,7 +151,7 @@
 								</a>
 							</div>
 						</div>
-						<a role = "button" class = "btn button_outline_color" href = "launch.html"><strong>All Releases</strong></a>
+						<a role = "button" class = "btn btn-lg button_outline_color font_righteous" href = "launch.html">All Releases</a>
 					</div>
 				</div>
 			</div>
@@ -186,7 +195,7 @@
 								</a>
 							</div>
 						</div>
-						<a role = "button" class = "btn button_outline_color" href = "offers.html"><strong>All Offers</strong></a>
+						<a role = "button" class = "btn btn-lg button_outline_color font_righteous" href = "offers.html">All Offers</a>
 					</div>
 				</div>
 			</div>
@@ -211,7 +220,7 @@
 							you! It comprises handpicked content created by experts which will help you in knowing the
 							product better.
 						</p>
-						<a role = "button" class = "btn button_outline_color" href = "blog.html"><strong>Go to Blog</strong></a>
+						<a role = "button" class = "btn btn-lg button_outline_color font_righteous" href = "blog.html">Go to Blogs</a>
 					</div>
 				</div>
 			</div>
@@ -234,7 +243,7 @@
 							the world and widen your knowledge to add on your tech-encyclopedia/dictionary. Also get
 							latest leaks and updates on upcoming devices. Don't miss it!!
 						</p>
-						<a role = "button" class = "btn button_outline_color" href = "forum.html"><strong>Check FAQs</strong></a>
+						<a role = "button" class = "btn btn-lg button_outline_color font_righteous" href = "faq.html">Check FAQs</a>
 					</div>
 				</div>
 			</div>
@@ -261,7 +270,7 @@
 					Go and explore, filter out your gadget here and make the right choice in buying the device of
 					your needs!
 				</p>
-				<a role = "button" class = "btn button_outline_color" href = "products.html"><strong>View Products</strong></a>
+				<a role = "button" class = "btn btn-lg button_outline_color font_righteous" href = "product.html">View Products</a>
 			</div>
 		</div>
 
@@ -285,8 +294,9 @@
 					task,With diverse choices and various price ranges, people usually get into a perplexed state
 					while choosing exactly what's appropriate for them . GREADY helps you compare multiple
 					products of best brands and offers , categorised for you, exclusively to make your experience
-					effective and convenient.				</p>
-				<a role = "button" class = "btn button_outline_color" href = "products.html"><strong>Compare Products</strong></a>
+					effective and convenient.				
+				</p>
+				<a role = "button" class = "btn btn-lg button_outline_color font_righteous" href = "compare.html">Compare Products</a>
 			</div>
 		</div>
 
@@ -331,7 +341,7 @@
 			</div>
 		</div>
 		<div class = "row row-content justify-content-center mb-5">
-			<a role = "button" class = "btn button_outline_color" href = "team.html"><strong>View Team</strong></a>
+			<a role = "button" class = "btn btn-lg button_outline_color font_righteous" href = "team.html">View Team</a>
 		</div>
 
 <!--Review Form-->
@@ -359,7 +369,7 @@
         <div class="container">
             <div class="row">             
                 <div class="col-4 col-md-2">
-                    <h5>Links</h5>
+                    <h5 class="font_righteous">Links</h5>
                     <ul class="list-unstyled">
                         <li><a class = "text_lightgrey footer_link" href="blog.html">Blog</a></li>
                         <li><a class = "text_lightgrey footer_link" href="forum.html">FAQs</a></li>
@@ -369,7 +379,7 @@
 				</div>
 				
 				<div class="col-4 col-md-2">
-                    <h5>Contact Us</h5>
+                    <h5 class="font_righteous">Contact Us</h5>
                     <ul class="list-unstyled">
                         <li><a class = "text_lightgrey footer_link" href="blog.html">Gmail</a></li>
                         <li><a class = "text_lightgrey footer_link" href="forum.html">LinkedIn</a></li>
@@ -379,7 +389,7 @@
                 </div>
 				
 				<div class="col-4 col-md-2">
-                    <h5>Team</h5>
+                    <h5 class="font_righteous">Team</h5>
                     <ul class="list-unstyled">
                         <li><a class = "text_lightgrey footer_link" href="team.html">Content</a></li>
                         <li><a class = "text_lightgrey footer_link" href="team.html">Developers</a></li>

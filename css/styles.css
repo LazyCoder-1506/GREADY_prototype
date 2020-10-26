@@ -37,9 +37,19 @@ body
     font-family : 'Ubuntu';
 }
 
+.font_righteous
+{
+    font-family: 'Righteous';
+}
+
 .dark_bg
 {
-    background-color : #222222;
+    background-color : #222222 !important;
+}
+
+.black_bg
+{
+    background-color : black !important;
 }
 
 .navbar
@@ -49,14 +59,18 @@ body
 
 .navbar_scrolled
 {
-    background : rgba(50, 50, 50, 1);
-    box-shadow : inset #5b5b5b 0px 0px 15px;
+    background : rgba(0, 0, 0, 1);
+    border-bottom: 1px solid grey;
 }
 
 .navbar .nav-link
 {
-    color : white !important;
-    font-weight : 600;
+    font-size: 20px;
+}
+
+.navbar .nav-link:hover
+{
+    color : #8ddffc !important;
 }
 
 .navbar .nav_link_active
@@ -66,7 +80,7 @@ body
 
 .navbar .nav_active
 {
-    border-bottom : 2px solid #8ddffc;
+    border-bottom : 4px solid #8ddffc;
 }
 
 .button_outline_color
