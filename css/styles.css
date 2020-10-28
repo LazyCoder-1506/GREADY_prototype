@@ -52,6 +52,11 @@ body
     background-color : black !important;
 }
 
+.w_90
+{
+    width: 90%;
+}
+
 .navbar
 {
     background-color : transparent;
@@ -288,6 +293,12 @@ footer
     background-color : #222222;
 }
 
+.product_faq_div
+{
+    border-radius: 20px;
+    border: 1px solid #8ddffc;
+}
+
 .product_img_div
 {
     width : 90%;
@@ -310,35 +321,4 @@ footer
 #like_product_heart
 {
     color : white;
-}
-
-@media (min-width : 700px)
-{
-    .br_no_display
-    {
-        display : none;
-    }
-
-    #like_product
-    {
-        font-size : 20px;
-    }
-}
-
-@media (max-width : 400px)
-{
-    #product_star_rating
-    {
-        font-size : 20px;
-    }
-
-    #price_source_head
-    {
-        font-size : 20px;
-    }
-
-    #product_info_pills .nav-link
-    {
-        font-size : 0.95rem;
-    }
 }
