@@ -260,6 +260,10 @@ footer
 }
 
 /*Product page css*/
+.single_product_title{
+    background-image: radial-gradient(black, black, rgba(20,70,120,1));
+}
+
 .modal_img
 {
     width : 100%;
@@ -312,7 +316,7 @@ footer
 
 .product_img
 {
-    left : 0;
+    left : 5%;
     top : 0;
     position : absolute;
 }
