@@ -145,6 +145,10 @@ footer
 {
     overflow-y : auto;
 }
+.hori_scroll{
+    overflow-x: auto;
+    white-space: nowrap;
+}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -313,9 +317,8 @@ footer
     position : absolute;
 }
 
-.product_price
-{
-    text-decoration : none !important;
+.product_price_div{
+    background-image: linear-gradient(to bottom right, rgba(50, 50, 50, 1),rgba(16,58,95,1), rgba(37, 103, 164,1));
 }
 
 #like_product_heart
