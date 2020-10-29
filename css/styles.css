@@ -320,8 +320,3 @@ footer
 .product_price_div{
     background-image: linear-gradient(to bottom right, rgba(50, 50, 50, 1),rgba(16,58,95,1), rgba(37, 103, 164,1));
 }
-
-#like_product_heart
-{
-    color : white;
-}
