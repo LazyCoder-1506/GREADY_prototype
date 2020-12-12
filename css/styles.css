@@ -39,7 +39,7 @@ body
 
 .font_righteous
 {
-    font-family: 'Righteous';
+    font-family: 'Comfortaa';
 }
 
 .dark_bg
@@ -51,7 +51,9 @@ body
 {
     background-color : black !important;
 }
-
+.transparent_bg{
+    background: none;
+}
 .w_90
 {
     width: 90%;
