@@ -20,11 +20,11 @@
 <body>
   <div class="container-fluid text-white p-lg-5">
     <div class="row mx-0">
-      <div class="col-12 col-lg-2">
+      <div class="col-12 col-lg-2 collapse" id="filters_div">
         Filters
       </div>
-      <div class="col-12 col-lg-10">
-        <form action="">
+      <div class="col-12 col-lg-10 px-0">
+        <form action="" class="mb-3">
           <div class="form-row">
             <div class="form-group col-10 pr-0">
               <input type="text" class="form-control black_bg bottom_outline_search w-100" name="search_phone" id="search_phone" placeholder="Search..." required>
@@ -34,6 +34,38 @@
             </div>
           </div>
         </form>
+
+        <div class="container-fluid">
+          <div class="row browse_item p-1 p-lg-2 mx-0 mb-3">
+            <div class="col-3 col-lg-2 p-1 p-lg-2">
+              <img src="img/product1.jpg" width="100%" alt="">
+            </div>
+            <div class="col-9 col-lg-6 p-1 p-lg-2">
+              <h3 class="d-none d-lg-block text_blue font_ubuntu">Phone model 1</h3>
+              <h5 class="d-lg-none text_blue font_ubuntu mb-0">Phone model 1</h5>
+              <h4 class="d-none d-lg-block text_floralwhite">Rs. 15,999</h4>
+              <h6 class="d-lg-none text_floralwhite">Rs. 15,999</h6>
+            </div>
+            <div class="col-12 col-lg-4 p-1 p-lg-2">
+              <table class="table black_bg table-borderless">
+                <tbody>
+                  <tr>
+                    <td class="p-0 p-lg-1">RAM</td>
+                    <td class="text_lightgrey p-0 p-lg-1">3 GB</td>
+                  </tr>
+                  <tr>
+                    <td class="p-0 p-lg-1">Storage</td>
+                    <td class="text_lightgrey p-0 p-lg-1">32 GB</td>
+                  </tr>
+                  <tr>
+                    <td class="p-0 p-lg-1">Battery</td>
+                    <td class="text_lightgrey p-0 p-lg-1">5000 mAh</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

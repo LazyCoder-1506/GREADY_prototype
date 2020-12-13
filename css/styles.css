@@ -326,3 +326,19 @@ footer
 .product_price_div{
     background-image: linear-gradient(to bottom right, rgba(50, 50, 50, 1),rgba(16,58,95,1), rgba(37, 103, 164,1));
 }
+
+/* Browse page css */
+@media(min-width : 999px) {
+    #filters_div{
+        display: block !important;
+    }
+}
+
+.browse_item{
+    border: 1px solid lightgray;
+    box-shadow: 0 3px 10px 3px gray;
+    border-radius: 10px;
+}
+.browse_item:hover{
+    box-shadow: 0 3px 15px 5px #8ddffc;
+}
